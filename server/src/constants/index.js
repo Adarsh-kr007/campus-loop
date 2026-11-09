@@ -1,0 +1,6 @@
+export const CATEGORIES = ['Electronics', 'Bags', 'Books', 'Documents', 'Accessories', 'Clothing', 'Other']
+export const LOCATIONS = ['Library', 'Canteen', 'Academic Block', 'Computer Lab', 'Parking Area', 'Classroom Block', 'Hostel', 'Sports Ground', 'Admin Office']
+export const ITEM_TYPES = ['lost', 'found']
+export const ITEM_STATUSES = ['active', 'claim_pending', 'recovered', 'closed']
+export const CLAIM_STATUSES = ['pending', 'approved', 'rejected']
+export const ROLES = ['student', 'admin']

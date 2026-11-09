@@ -1,0 +1,1 @@
+.auth-layout { min-height: 100vh; padding: 24px max(24px, calc((100vw - 1120px) / 2)); background: var(--bg); }.auth-top { display: flex; align-items: center; justify-content: space-between; }.auth-back { display: inline-flex; align-items: center; gap: 7px; color: var(--text-muted); font-size: 14px; }.auth-back:hover { color: var(--navy-900); }

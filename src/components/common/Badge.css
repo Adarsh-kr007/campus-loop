@@ -1,0 +1,8 @@
+.badge { width: fit-content; display: inline-flex; align-items: center; padding: 5px 9px; border: 1px solid transparent; border-radius: 999px; font-size: 11px; line-height: 1; font-weight: 750; text-transform: capitalize; white-space: nowrap; }
+.badge--lost { color: var(--lost); background: var(--lost-soft); border-color: var(--lost-border); }
+.badge--found { color: var(--found); background: var(--found-soft); border-color: var(--found-border); }
+.badge--pending,.badge--claim_pending { color: var(--warning-text); background: var(--warning-soft); border-color: var(--warning-border); }
+.badge--recovered,.badge--approved { color: var(--found); background: var(--found-soft); border-color: var(--found-border); }
+.badge--rejected,.badge--closed { color: var(--text-muted); background: var(--bg); border-color: var(--border); }
+.badge--active { color: var(--teal-600); background: var(--teal-soft); border-color: var(--teal-border); }
+.badge--default { color: var(--text-muted); background: var(--bg); border-color: var(--border); }
